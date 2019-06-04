@@ -1,0 +1,23 @@
+body {
+  background: #dad7c7;
+}
+
+.page {
+  display: flex;
+}
+.page .no {
+  margin-right: 10px;
+  padding-top: 15px;
+}
+
+.page a {
+  background: white;
+  display: inline-block;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.page a:hover {
+  background: black;
+  color: white;
+}

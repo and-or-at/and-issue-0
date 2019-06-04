@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+.logo-box {
+  width: 200px;
+}
+.logo {
+  width: 100%;
+}
+
+body {
+  padding: 30px;
+  font-family: 'Noto Serif', serif;
+  background: #fdf7b0;
+  border-top: 10px dashed #74b902;
+}
+
+article {
+  border-left: 10px solid #41d7fa;
+  padding-left: 20px;
+}
+
+
+h1 {
+  font-size: 2em;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+@media (min-width: 500px)  {
+  h1 {
+    font-size: 3em;
+  }
+
+  article {
+    border-left: 30px solid #41d7fa;
+    padding-left: 30px;
+  }
+
+  .container {
+    display: flex;
+  }<p></p>
+
+}
+
+
+p {
+  font-size: 1em;
+  line-height: 30px;
+  text-align: justify;
+}
+
+@media (min-width: 500px)  {
+  p {
+    font-size: 1.5em;
+    line-height: 50px;
+  }
+}
+
+
+@media (min-width: 1000px)  {
+  article {
+    max-width: 56%;
+    padding-left: 80px;
+  }
+}
