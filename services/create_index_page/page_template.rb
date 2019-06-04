@@ -17,7 +17,7 @@ class Page
         #{@page}
       </p>
       <h2 class='title'>
-      <a href="/page/#{@page}/">#{@title}</a>
+      <a href="/page/demos/#{@page}/">#{@title}</a>
       </h2>
       )
     end.gsub("/n", '')

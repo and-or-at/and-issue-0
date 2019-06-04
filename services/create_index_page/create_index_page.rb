@@ -1,4 +1,4 @@
-require_relative './page/page_template'
+require_relative './page_template'
 require_relative './data'
 
 index_path = Data[:path]
@@ -46,7 +46,7 @@ class IndexMaker
 end
 
 File.open(index_file, 'w') do |file|
-  im = IndexMaker.new(Index[:pages], file, Page)
+  im = IndexMaker.new(Data[:pages], file, Page)
   im.header
   im.body
   im.footer
