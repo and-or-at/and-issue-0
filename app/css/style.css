@@ -41,11 +41,12 @@ footer {
 
 .hero {
   display: flex;
-  align-items: stretch;
+  /* _dw TODO Learn me some flex props! */
+  /*align-items: stretch;*/
 }
 
 .headline {
-  flex-grow: 3;
+  /*flex-grow: 3;*/
 }
 .issue-container {
   /*flex-shrink: 2;*/
