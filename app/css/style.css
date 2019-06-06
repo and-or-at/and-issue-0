@@ -39,8 +39,16 @@ footer {
   padding: 3em;
 }
 
-.blocks {
+.hero {
   display: flex;
+  align-items: stretch;
+}
+
+.headline {
+  flex-grow: 3;
+}
+.issue-container {
+  /*flex-shrink: 2;*/
 }
 @media (min-width: 600px) {
   h1 {
@@ -61,13 +69,32 @@ footer {
 .logo img {
   width: 100%;
 }
-.sentence {
-  line-height: 64px;
+.issue-container {
   border-left: 10px solid #ff6347;
   padding-left: 10px;
-  margin-left: 10px;
-  padding-top: 25px;
 }
+
+.issue .title,
+.issue .number {
+  text-align: center;
+}
+.issue {
+  border: 1px solid black;
+  font-family: courier;
+}
+
+.issue .title {
+  background: black;
+  color: white;
+  font-size: 3em;
+  padding: 0.5em 1em;
+}
+
+.issue .number {
+  font-size: 5em;
+  padding: 0.5em 1em;
+}
+
 .p,
 .text {
   font-family: courier;
