@@ -1,5 +1,6 @@
 /* body & bdy */
-body {}
+body {
+}
 
 /* images & img */
 
@@ -11,11 +12,21 @@ body {}
 
 /* image size */
 
-.ff-img .ff-size0 { width: 10%;}
-.ff-img .ff-size1 { width: 20%; }
-.ff-img .ff-size2 { width: 30%; }
-.ff-img .ff-size3 { width: 40%; }
-.ff-img .ff-size4 { width: 50%; }
+.ff-img .ff-size0 {
+  width: 10%;
+}
+.ff-img .ff-size1 {
+  width: 20%;
+}
+.ff-img .ff-size2 {
+  width: 30%;
+}
+.ff-img .ff-size3 {
+  width: 40%;
+}
+.ff-img .ff-size4 {
+  width: 50%;
+}
 
 /* image placement */
 
@@ -27,7 +38,6 @@ body {}
   display: block;
   margin: 0 auto;
 }
-
 
 /*
 the prefix is the parent
@@ -42,3 +52,12 @@ action
 the sub-category is unique to the application
 
 */
+
+/*
+
+container
+*/
+
+.ff-container {
+  /*  background: red; */
+}
