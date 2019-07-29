@@ -1,0 +1,99 @@
+<html>
+<head>
+<!--
+utf-8
+-->
+<title>Moving!</title>
+<style>
+  body {
+    font-size: 3em;
+    font-family: courier new;
+    width: 80%;
+    margin: 2em auto;
+  }
+  ul .todo, ul .done {
+    list-style: none;
+  }
+
+  li li {
+    margin-left: 30px;
+  }
+
+  ul .todo:before {
+/* this is cool - the character UTF coodes are the front of the content. The fixed constant is the 0020 part.
+*/
+content: "\2610\0020";
+}
+
+ul .now:before {
+  content: 'now';
+  background: red;
+  color: white;
+  padding: 0 15px;
+}
+
+ul .done  {
+  color: gray;
+}
+
+ul .done:before {
+  content: "\2714\0020";
+  color: seagreen;
+}
+
+.date {
+  background: yellow;
+  display: inline;
+}
+
+</style>
+</head>
+</html>
+<h1>
+  Moving!
+</h1>
+
+<ul>
+  <li class="todo">
+    truck rental, order by
+    <div class="date">4/23</div>
+  </li>
+  <li class="todo">
+    boxes &amp; tape
+  </li>
+  <li class="todo">
+    pack areas
+    <ul>
+      <li class='todo'>clothes</li>
+      <li class='todo'>papers</li>
+      <li class='todo'>computers</li>
+      <li class='done'>storage (1)</li>
+      <li class='todo'>storage (2)</li>
+      <li class='done'>ping pong table</li>
+      <li class='done'>desk</li>
+      <li class='done'>music closet</li>
+      <li class='done'>furniture</li>
+    </ul>
+  </li>
+  <li class="todo">
+    organize items for:
+    <ul>
+      <li>kitchen</li>
+      <li>bathroom</li>
+      <li>bedroom</li>
+      <li>office</li>
+      <li>living room</li>
+    </ul>
+  </li>
+  <li class="todo">
+    Buy mattress and box spring
+  </li>
+  <li class="todo">
+    Drive West! <div class="date">05/03</div>
+  </li>
+  <li class="done">buy return airline ticket</li>
+  <li class="done">pack books</li>
+  <li class="done">find an appartment! </li>
+  <li class=done>plan</li>
+  <li class='done'> rearrange rooms </li>
+  </ul>

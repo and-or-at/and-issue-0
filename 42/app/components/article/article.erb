@@ -1,0 +1,17 @@
+require 'erb'
+require_relative '../../data/header'
+
+weekday = Time.now.strftime('%A')
+simple_template = "Today is <%= HEADER %>."
+
+renderer = ERB.new(simple_template)
+puts output = renderer.result()
+
+=begin
+
+  The idea with 42 is;
+  - write data as sequential .md files
+  - have header to discuss the issue meta content, and index listing
+  - use this file to insert articles into static index.html
+  - have a rego rerun this file anytime I change: app/* or index.html
+=end
