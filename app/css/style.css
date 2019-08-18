@@ -11,9 +11,21 @@ body {
 }
 
 .container {
-  margin: 40px;
+  margin: 10px;
   border: 10px double black;
+  padding: 1em;
 }
+
+@media (min-width: 600px) {
+  .container {
+    margin: 40px;
+    border: 10px double black;
+    padding: 3em;
+  }
+}
+
+
+
 
 .menu {
   background: black;
@@ -35,9 +47,15 @@ footer {
 .crap {
   color: brown;
 }
-.container {
-  padding: 3em;
+
+
+.hero {
+  display: block;
+  /* _dw TODO Learn me some flex props! */
+  /*align-items: stretch;*/
 }
+
+@media (min-width: 600px) {
 
 .hero {
   display: flex;
@@ -45,12 +63,14 @@ footer {
   /*align-items: stretch;*/
 }
 
+}
 .headline {
   /*flex-grow: 3;*/
 }
 .issue-container {
   /*flex-shrink: 2;*/
 }
+
 @media (min-width: 600px) {
   h1 {
     font-size: 4.25em;
@@ -87,13 +107,28 @@ footer {
 .issue .title {
   background: black;
   color: white;
-  font-size: 3em;
+  font-size: 1.3em;
   padding: 0.5em 1em;
 }
 
 .issue .number {
-  font-size: 5em;
+  font-size: 2.5em;
   padding: 0.5em 1em;
+}
+
+@media (min-width: 600px) {
+
+  .issue .title {
+    background: black;
+    color: white;
+    font-size: 3em;
+    padding: 0.5em 1em;
+  }
+
+  .issue .number {
+    font-size: 5em;
+    padding: 0.5em 1em;
+  }
 }
 
 .p,
@@ -222,9 +257,18 @@ a.email-me {
   padding: 1em;
   text-align: center;
 }
+
 article {
-  margin: 50px 30px 80px 10px;
-  padding: 10px;
+  /*margin: 50px 30px 80px 10px;*/
+  /*padding: 10px;*/
+}
+
+@media (min-width: 600px) {
+  article {
+    margin: 50px 30px 80px 10px;
+    padding: 10px;
+  }
+
 }
 
 /*
