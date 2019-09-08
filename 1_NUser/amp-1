@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" style="white-space: pre;">
+    <path fill="none" stroke="#000000" d="M0,0L2299,0L2299,87L0,87Z" transform="translate(945,-143) translate(-1149.5,-43.5)"/>
+    <path d="M0,0L-107,90L-113,193L21,279L203,171Z" fill="#ffffff" stroke-linecap="square" stroke="none" transform="translate(247,355)"/>
+    <text fill="#ffffff" font-size="800" font-family="Avenir" letter-spacing="0" word-spacing="0" stroke="none" transform="translate(55,648)" style="line-height: 16px;">&amp;</text>
+</svg>

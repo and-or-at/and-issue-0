@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" style="white-space: pre;">
+    <style>
+@keyframes a0_s { 0% { stroke: #000000; } 36.8421% { stroke: #000000; } 54.386% { stroke: none; } 100% { stroke: none; } }
+@keyframes a0_f { 0% { fill: none; } 96.4912% { fill: #000000; } 100% { fill: #ffffff; } }
+@keyframes a0_d { 0% { d: path('M0,0L2299,0L2299,87L0,87Z'); } 61.4035% { d: path('M0,0L2299,0L2299,1234L0,87Z'); } 100% { d: path('M0,0L2299,0L2299,1234L0,87Z'); } }
+@keyframes a1_f { 0% { fill: #ffffff; } 84.2105% { fill: #ffffff; } 100% { fill: #99fc99; } }
+@keyframes a2_f { 0% { fill: #ffffff; } 7.0175% { fill: #c3ffc3; } 14.0351% { fill: #363636; } 100% { fill: #000000; } }
+    </style>
+    <path fill="none" stroke="#000000" d="M0,0L2299,0L2299,87L0,87Z" transform="translate(945,-143) translate(-1149.5,-43.5)" style="animation: 5.7s linear both a0_s, 5.7s linear both a0_f, 5.7s linear both a0_d;"/>
+    <path d="M0,0L-107,90L-113,193L21,279L203,171Z" fill="#ffffff" stroke-linecap="square" stroke="none" transform="translate(247,355)" style="animation: 5.7s linear both a1_f;"/>
+    <text fill="#ffffff" font-size="800" font-family="Avenir" letter-spacing="0" word-spacing="0" stroke="none" transform="translate(55,648)" style="line-height: 16px; animation: 5.7s linear both a2_f;">&amp;</text>
+</svg>
