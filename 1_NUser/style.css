@@ -1,0 +1,32 @@
+.logo img {
+  width: 100;
+  float: left;
+}
+
+.banner img {
+  width: 75%;
+  float: right;
+}
+.intro {
+}
+
+.date {
+  background: black;
+  color: yellow;
+  font-family: courier;
+  width: 100px;
+  height: 100px;
+  font-size: 10px;
+  text-align: center;
+  padding: 50px;
+}
+
+.white {
+  color: white;
+  font-family: helvetica;
+  font-weight: 100;
+}
+
+.intro-1 {
+  background: seagreen;
+}
