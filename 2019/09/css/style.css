@@ -1,0 +1,56 @@
+body {
+  padding: 0;
+  margin: 0;
+  /*background: #d9e4c3;*/
+  font-family: georgia;
+}
+
+.pages {
+  width: 100%;
+  overflow: auto;
+}
+
+.page {
+  float: left;
+  width: 30%;
+  margin: 2%;
+}
+
+.page img {
+  width: 100%;
+}
+
+.main {
+  width: 90%;
+  margin: 0 auto;
+  background: #dad7c7;
+  padding: 5%;
+  margin: 5%;
+  box-sizing: border-box;
+  border-top: 10px solid seagreen;
+  border-right: 10px solid seagreen;
+}
+
+.main h1 {
+  background: rgba(0,0,0,0.65);
+  color: seagreen;
+  padding: 5%;
+  /*font-style: italic;*/
+  font-weight: 100;
+  font-size: 5em;
+  border-left: 10px solid seagreen;
+  font-family: lucida grande;
+}
+
+@media (min-width: 700px) {
+  .main p,
+  .main li {
+    line-height: 35px;
+    font-size: 25px;
+  }
+}
+
+
+#fd6666
+
+#6ea4bf
