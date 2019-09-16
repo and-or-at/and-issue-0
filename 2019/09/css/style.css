@@ -3,36 +3,54 @@ body {
   margin: 0;
   /*background: #d9e4c3;*/
   font-family: georgia;
+  border-top: 30px solid tomato;
 }
 
-.pages {
-  width: 100%;
-  overflow: auto;
+p {
+  color: #dad7c7;
 }
 
-.page {
-  float: left;
-  width: 30%;
-  margin: 2%;
+@media (min-width: 900px) {
+  .pages {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+
+  .page {
+    box-sizing: border-box;
+    width: 28%;
+    background: #d5bb52;
+    margin: 2%;
+  }
+
 }
 
 .page img {
   width: 100%;
 }
 
+
+.page a {
+  text-align: center;
+  padding-bottom: 2%;
+  display: inline-block;
+  width: 100%;
+}
+
 .main {
-  width: 90%;
-  margin: 0 auto;
-  background: #dad7c7;
-  padding: 5%;
-  margin: 5%;
-  box-sizing: border-box;
   border-top: 10px solid seagreen;
   border-right: 10px solid seagreen;
+  width: 90%;
+  margin: 0 auto;
+  background:  #000;
+  padding: 2.5%;
+  margin: 2.5%;
+  box-sizing: border-box;
 }
 
 .main h1 {
-  background: rgba(0,0,0,0.65);
+  background: rgba(255,255,255,0.25);
   color: seagreen;
   padding: 5%;
   /*font-style: italic;*/
@@ -48,9 +66,56 @@ body {
     line-height: 35px;
     font-size: 25px;
   }
+
+  .main h1 {
+    border-left: 30px solid seagreen;
+  }
+
+  .main {
+  border-top: 30px solid seagreen;
+  border-right: 30px solid seagreen;
+  }
+}
+
+.header .date {
+  font-family: helvetica;
+  font-weight: bold;
+  color: #d5bb52;
+  background: #0f80ff;
+  border-top: 10px solid #d5bb52;
 }
 
 
-#fd6666
+@media (min-width: 700px) {
+  .header {
+  display: flex;
+  overflow: auto;
+  width: 100%;
+  background: #eee;
+}
 
-#6ea4bf
+.header img {
+  width: 100%;
+  margin: 5%;
+}
+
+.header .logo {
+  width: 20%;
+  overflow: auto;
+  float: left;
+}
+
+  .header .date {
+    font-size: 7em;
+    float: right;
+    padding: 3%;
+    display: inline-block;
+    border-top: 30px solid #d5bb52;
+  }
+}
+
+@media (min-width: 900px) {
+   .header .date {
+    font-size: 9em;
+    }
+}
